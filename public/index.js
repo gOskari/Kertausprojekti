@@ -44,5 +44,5 @@ function getInputValue4() {
     const url = "/haeArtistinFestivaalit/" + encodeURIComponent(textField.value);
 
     // Redirect the user to the new URL
-    window.location.href = url; //kys
+    window.location.href = url; // :)
 }
