@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .content {
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        background-color: antiquewhite;
+    }
+
+</style>
+<body>
+    <main class="container">
+        <div class="content">
+            <p>haeFestivaalit()</p>
+            <a href="/festarit">Mene</a>
+        </div>
+        <div class="content">
+            <p>haeArtistit()</p>
+            <a href="/artistit">Mene</a>
+        </div>
+        <div class="content">
+            <p>haeFestivaalinArtistit()</p>
+            <input type="text" id="myTextField" placeholder="Enter text">
+            <button onclick="getInputValue()">Mene</button>
+        </div>
+        <div class="content">
+            <p>haeArtistinKaupungit()</p>
+            <input type="text" id="teksti2" placeholder="Enter text">
+            <button onclick="getInputValue2()">Mene</button>
+        </div>
+        <div class="content">
+            <p>haeFestivaalinKaupunki()</p>
+            <input type="text" id="teksti3" placeholder="Enter text">
+            <button onclick="getInputValue3()">Mene</button>
+        </div>
+        <div class="content">
+            <p>haeArtistinFestivaalit()</p>
+            <input type="text" id="teksti4" placeholder="Enter text">
+            <button onclick="getInputValue4()">Mene</button>
+        </div>
+        <div class="content">
+            <p>haeEnitenArtisteja()</p>
+            <a href="/haeEnitenArtisteja">Mene</a>
+        </div>
+        <div class="content">
+            <p>haeFestivaalitAikajarjestyksessa()</p>
+            <a href="/haeFestivaalitAikajarjestyksessa">Mene</a>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>
